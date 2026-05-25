@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Reset Password",
+    "content": "Users can reset their password by navigating to Settings > Security > Change Password. You will be prompted to enter your current password and then your new password twice. Passwords must be at least 8 characters long and include at least one uppercase letter, one number, and one special character. If you have forgotten your current password, click 'Forgot Password' on the login page and a reset link will be sent to your registered email address. The reset link expires in 30 minutes."
+  },
+  {
+    "title": "Account Deletion",
+    "content": "Users can permanently delete their account by going to Account Settings > Privacy > Delete Account. Once deleted, all personal data including profile information, chat history, and saved preferences will be permanently removed within 30 days. This action is irreversible. Before deletion, you will be prompted to download a copy of your data. Subscriptions must be cancelled before account deletion to avoid further billing. Contact support@company.com if you need help with this process."
+  },
+  {
+    "title": "Billing and Subscription Plans",
+    "content": "We offer three subscription tiers: Free, Pro ($19/month), and Enterprise ($99/month). The Free plan includes 100 API calls per day, 1 GB storage, and community support. The Pro plan includes 10,000 API calls per day, 50 GB storage, priority email support, and access to advanced features. The Enterprise plan includes unlimited API calls, 1 TB storage, dedicated account manager, SLA guarantees, and custom integrations. Billing cycles are monthly or annual (annual saves 20%). You can upgrade, downgrade, or cancel anytime from Billing Settings."
+  },
+  {
+    "title": "Two-Factor Authentication",
+    "content": "Two-Factor Authentication (2FA) adds an extra layer of security to your account. To enable 2FA, go to Settings > Security > Two-Factor Authentication and click Enable. We support authenticator apps (Google Authenticator, Authy), SMS verification, and hardware security keys (YubiKey). After enabling 2FA, you will need to enter a 6-digit code each time you log in. Save your backup codes in a secure place as they are the only way to access your account if you lose your 2FA device. Disable 2FA from the same settings page if needed."
+  },
+  {
+    "title": "API Key Management",
+    "content": "API keys allow you to integrate our services into your applications. Generate a new API key from Developer Settings > API Keys > Generate New Key. Each key can be assigned specific permissions (read, write, admin). You can create up to 10 active API keys per account. API keys should be kept confidential and never committed to public repositories. If a key is compromised, revoke it immediately from the API Keys dashboard and generate a new one. Keys can be restricted to specific IP addresses for added security. Monitor API key usage from the usage analytics dashboard."
+  },
+  {
+    "title": "Data Export and Backup",
+    "content": "You can export all your data at any time from Account Settings > Data & Privacy > Export Data. Supported export formats include JSON, CSV, and PDF. The export process may take up to 24 hours depending on the amount of data. You will receive an email notification when your export is ready for download. Exports are available for 7 days before being automatically deleted. Automatic backups run daily for Pro and Enterprise users. Manual backups can be triggered at any time from the Backup Settings panel. Restore from a backup by selecting the desired backup point and clicking Restore."
+  },
+  {
+    "title": "Integrations and Third-Party Apps",
+    "content": "Our platform supports integrations with popular tools including Slack, Google Workspace, Microsoft Teams, Salesforce, Jira, GitHub, and Zapier. To connect an integration, go to Settings > Integrations and click Connect next to the desired service. You will be redirected to authorize permissions. Disconnect integrations at any time from the same page. Each integration has configurable options such as notification preferences and sync frequency. Custom integrations can be built using our REST API and webhook system. Enterprise customers have access to dedicated integration support and custom connector development."
+  },
+  {
+    "title": "User Roles and Permissions",
+    "content": "Our platform supports four user roles: Owner, Admin, Editor, and Viewer. The Owner has full access including billing and account deletion. Admins can manage users, settings, and all content but cannot delete the account or change billing. Editors can create, edit, and delete content within their assigned workspaces. Viewers have read-only access. Roles are assigned from Team Settings > Members. Custom roles with granular permissions are available on the Enterprise plan. Guest access can be enabled to share specific content with external users without creating an account."
+  },
+  {
+    "title": "Troubleshooting Login Issues",
+    "content": "If you cannot log in, first ensure your email and password are entered correctly. Check that Caps Lock is not enabled. If you have forgotten your password, use the Forgot Password link on the login page. If 2FA is enabled and you have lost access to your authenticator, use your backup codes. If your account is locked due to multiple failed login attempts, wait 30 minutes before trying again or contact support. Clear your browser cache and cookies if the login page is not loading properly. If you receive a 'account suspended' message, contact support@company.com with your account email for assistance."
+  },
+  {
+    "title": "Privacy Policy and Data Usage",
+    "content": "We are committed to protecting your privacy. We collect only the data necessary to provide our services, including account information, usage data, and communication preferences. We never sell your personal data to third parties. Data is encrypted at rest using AES-256 and in transit using TLS 1.3. We comply with GDPR, CCPA, and SOC 2 Type II standards. You can review and update your data sharing preferences from Account Settings > Privacy. We retain account data for 90 days after deletion for legal compliance, after which it is permanently purged. Our full privacy policy is available at company.com/privacy."
+  }
+]
